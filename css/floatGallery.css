@@ -1,0 +1,69 @@
+.floatGallery{
+    position: relative;
+    display: block;
+    opacity: 0;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.floatGallery .cnt-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.floatGallery .cnt-wrap{
+    position: relative;
+    display: block;
+    font-size: 0;
+    transition: all ease .2s;
+}
+
+
+/**** themes ****/
+.theme-black{
+    background-color: #000000;
+}
+.theme-dark{
+    background-color: #3c3c3c;
+}
+.theme-gray{
+    background-color: #888888;
+}
+.theme-white{
+    background-color: #fff;
+}
+.theme-red{
+    background-color: #cc0000
+}
+
+
+/**** animations ****/
+.g-animate{
+    opacity: 0.01;
+    transition-property: all;
+}
+.g-fade{
+    opacity: 1;
+}
+@keyframes fade
+{
+    0%   {opacity: 0}
+    100% {opacity: 1}
+}
+@-moz-keyframes fade
+{
+    0%   {opacity: 0}
+    100% {opacity: 1}
+}
+@-webkit-keyframes fade
+{
+    0%   {opacity: 0}
+    100% {opacity: 1}
+}
+@-o-keyframes fade
+{
+    0%   {opacity: 0}
+    100% {opacity: 1}
+}
